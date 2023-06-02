@@ -29,9 +29,9 @@ install.packages(c(
 ))
 ```
 
+## Slides
+
 Slides of the teaching presentation that accompany the workshop are available at <https://joy-payton-chop.quarto.pub/r-101-rmed-2023> and are version controlled in a different repository, at <https://github.com/pm0kjp/r-101-rmed-2023>.
-
-
 
 ## License
 
