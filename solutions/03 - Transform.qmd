@@ -4,9 +4,16 @@ format: html
 editor: visual
 ---
 
+## setup
+
+{r, message = FALSE}
+library(tidyverse)
+covid_testing <- read_csv("covid_testing.csv")
+
 ## select( )
 
 ```{r}
+library(tidyverse)
 select(covid_testing, mrn, last_name)   # select columns to keep
 ```
 
