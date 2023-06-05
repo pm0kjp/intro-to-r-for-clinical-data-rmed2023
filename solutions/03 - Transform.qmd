@@ -6,9 +6,10 @@ editor: visual
 
 ## setup
 
-{r, message = FALSE}
+```{r, message = FALSE}
 library(tidyverse)
 covid_testing <- read_csv("covid_testing.csv")
+```
 
 ## select( )
 
